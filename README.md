@@ -19,9 +19,9 @@ If you have questions about [Shortest](https://shortest.com), [join our discussi
 
 ## Setup
 
-1. Fork this repository by clicking the Fork button in the top-right corner of this page (or [fork directly](https://github.com/anti-work/shortest-example/fork)).
+1. Click the "Use this template" button above, or [use this template directly](https://github.com/new?template_name=shortest-example&template_owner=anti-work).
 
-2. Clone your fork:
+2. Clone your new repository:
   ```bash
   git clone https://github.com/YOUR_USERNAME/shortest-example.git
   cd shortest-example
