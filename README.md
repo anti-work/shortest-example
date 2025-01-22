@@ -8,7 +8,7 @@ If you have questions about [Shortest](https://shortest.com), [join our discussi
 
 ## Creating a bug report
 
-1. Fork this repo
+1. Click "Use this template" to create your own copy of this repo
 2. Modify `example.test.ts` to reproduce your issue
 3. [Create a bug report](https://github.com/anti-work/shortest/issues/new?template=bug.yml) and include your repo URL
 
@@ -22,26 +22,26 @@ If you have questions about [Shortest](https://shortest.com), [join our discussi
 1. Click the "Use this template" button above, or [use this template directly](https://github.com/new?template_name=shortest-example&template_owner=anti-work).
 
 2. Clone your new repository:
-  ```bash
-  git clone https://github.com/YOUR_USERNAME/shortest-example.git
-  cd shortest-example
-  ```
+    ```bash
+    git clone https://github.com/YOUR_USERNAME/shortest-example.git
+    cd shortest-example
+    ```
 
 3. Install dependencies:
-```bash
-npm install
-```
+    ```bash
+    npm install
+    ```
 
 4. Set up your environment variables:
-```bash
-cp .env.example .env
-```
-Then edit `.env` and replace `your_anthropic_api_key_here` with your actual [Anthropic API key](https://console.anthropic.com).
+    ```bash
+    cp .env.example .env
+    ```
+    Then edit `.env` and replace `your_anthropic_api_key_here` with your actual [Anthropic API key](https://console.anthropic.com).
 
 5. Run the example test (debug mode, no caching):
-```bash
-npx shortest --debug-ai --no-cache
-```
+    ```bash
+    npx shortest --debug-ai --no-cache
+    ```
 
 ## License
 
