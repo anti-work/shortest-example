@@ -1,0 +1,13 @@
+{
+  "name": "shortest-example",
+  "version": "1.0.0",
+  "description": "Sample repo to try out Shortest",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Anti-Work",
+  "license": "ISC",
+  "devDependencies": {
+    "@antiwork/shortest": "^0.4.2",
+    "dotenv": "^16.4.7"
+  }
+}
