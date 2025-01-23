@@ -26,7 +26,13 @@ A minimal example showing how to use [@anti-work/shortest](https://www.npmjs.com
    npm install
    ```
 
-4. Run the example test:
+4. Set up your environment variables:
+    ```bash
+    cp .env.example .env
+    ```
+    Then edit `.env` and replace `your_anthropic_api_key_here` with your actual [Anthropic API key](https://console.anthropic.com).
+
+5. Run the example test:
    ```bash
    npx shortest
    ```
@@ -34,13 +40,25 @@ A minimal example showing how to use [@anti-work/shortest](https://www.npmjs.com
 ## Create a bug report
 
 1. Modify `example.test.ts` to reproduce your issue
-2. Commit and push your changes:
+2. Run the tests:
+   ```bash
+   # Wrapper script around Shortest to log the output to .shortest/debug.log
+   npm run test:debug
+
+   # With Shortest arguments
+   npm run test:debug -- --no-cache
+   ```
+3. Commit and push your changes:
+
+   > [!IMPORTANT]
+   > The `.shortest` folder contains valuable debugging information. Please review its contents before sharing to ensure you're not including any sensitive information you don't want to share publicly.
+
    ```bash
    git add .
-   git commit -m "Add reproduction for [brief issue description]"
+   git commit -m "Add reproduction"
    git push
    ```
-3. [Create a bug report](https://github.com/anti-work/shortest/issues/new?template=bug.yml) and include your repo URL
+4. [Create a bug report](https://github.com/anti-work/shortest/issues/new?template=bug.yml) and include your repo URL
 
 ## License
 
