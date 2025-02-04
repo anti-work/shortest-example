@@ -10,7 +10,7 @@
   "author": "Anti-Work",
   "license": "MIT",
   "devDependencies": {
-    "@antiwork/shortest": "^0.4.2",
+    "@antiwork/shortest": "^0.4.3",
     "dotenv": "^16.4.7"
   }
 }
