@@ -4,13 +4,13 @@
   "description": "Sample repo to try out Shortest",
   "main": "index.js",
   "scripts": {
-    "test:debug": "./bin/test.sh --debug-ai",
+    "test:debug": "./bin/test.sh --log-level=trace",
     "test": "shortest"
   },
   "author": "Anti-Work",
   "license": "MIT",
   "devDependencies": {
-    "@antiwork/shortest": "^0.4.3",
+    "@antiwork/shortest": "^0.4.4",
     "dotenv": "^16.4.7"
   }
 }
