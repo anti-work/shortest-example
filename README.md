@@ -47,11 +47,11 @@ npx shortest
 2. Run the test:
 
 ```bash
-# Wrapper script around Shortest to log the output to .shortest/debug.log
-npm run test:debug
+# Wrapper script around Shortest to log the output to .shortest/trace.log
+npm run test:trace
 
 # Or with Shortest arguments
-npm run test:debug -- --no-cache
+npm run test:trace -- --no-cache
 ```
 
 3. Commit and push your changes:
