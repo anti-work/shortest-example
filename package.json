@@ -7,7 +7,7 @@
     "test:trace": "./bin/test.sh --log-level=trace",
     "test": "shortest"
   },
-  "author": "Anti-Work",
+  "author": "Antiwork",
   "license": "MIT",
   "devDependencies": {
     "@antiwork/shortest": "^0.4.4",

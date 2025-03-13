@@ -1,10 +1,10 @@
 # Shortest example repo
 
-A minimal example showing how to use [@anti-work/shortest](https://www.npmjs.com/package/@antiwork/shortest) - an AI-powered natural language end-to-end testing framework.
+A minimal example showing how to use [@antiwork/shortest](https://www.npmjs.com/package/@antiwork/shortest) - an AI-powered natural language end-to-end testing framework.
 
 > [!NOTE]
 > This is a template repository for reproducing issues. Please **do not** submit pull requests.
-> For feature requests or questions, use [Discussions](https://github.com/anti-work/shortest/discussions).
+> For feature requests or questions, use [Discussions](https://github.com/antiwork/shortest/discussions).
 
 ## Prerequisites
 
@@ -13,7 +13,7 @@ A minimal example showing how to use [@anti-work/shortest](https://www.npmjs.com
 
 ## Setup
 
-1. Click the "Use this template" button above, or [use this template directly](https://github.com/new?template_name=shortest-example&template_owner=anti-work).
+1. Click the "Use this template" button above, or [use this template directly](https://github.com/new?template_name=shortest-example&template_owner=antiwork).
 
 2. Clone your new repository:
 
@@ -66,7 +66,7 @@ git commit -m "Add reproduction"
 git push
 ```
 
-5. [Create a bug report](https://github.com/anti-work/shortest/issues/new?template=bug.yml) and include your repo URL
+5. [Create a bug report](https://github.com/antiwork/shortest/issues/new?template=bug.yml) and include your repo URL
 
 ## License
 
